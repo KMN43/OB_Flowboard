@@ -1,7 +1,0 @@
-openpyxl
-pandas
-Pillow
-requests
-requests_kerberos
-streamlit
-urllib3
