@@ -1,7 +1,7 @@
 import urllib3
 import pandas as pd
 import datetime as dt
-from requests_kerberos import OPTIONAL, HTTPKerberosAuth
+import requests_kerberos
 from openpyxl import load_workbook
 import io
 import streamlit as st
