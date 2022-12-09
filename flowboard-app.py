@@ -1,15 +1,13 @@
 import urllib3
 import pandas as pd
 import datetime as dt
-from igraph_pull import pull_igraph_csv
-from get_nextCPT import get_nextCPT
+import requests
 from requests_kerberos import OPTIONAL, HTTPKerberosAuth
 from retryer import requests_retry_session
 from openpyxl import load_workbook
 import io
 import streamlit as st
 from PIL import Image
-import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
