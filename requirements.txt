@@ -1,0 +1,8 @@
+streamlit
+pandas
+datetime
+requests_kerberos
+urllib3
+openpyxl
+io
+PIL
