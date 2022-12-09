@@ -6,5 +6,5 @@ Data is feed from:
 - MonitorPortal, for Capped volumen and capacity outputs
 
 > Planned features:
-- Include VRET/TSO views to control panel
-- C7 management. Dwell control
+>- Include VRET/TSO views to control panel
+>- C7 management. Dwell control
