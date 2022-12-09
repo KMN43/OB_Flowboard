@@ -44,6 +44,7 @@ dependencies:
     - jsonschema==4.17.1
     - jupyter-client==7.4.7
     - jupyter-core==5.1.0
+    - requests_kerberos==0.14.0
     - lxml==4.9.1
     - markupsafe==2.1.1
     - matplotlib-inline==0.1.6
