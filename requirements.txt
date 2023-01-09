@@ -1,2 +1,2 @@
 requests-kerberos==0.14.0
-krb5==0.4.1
+krb5==0.4.0
