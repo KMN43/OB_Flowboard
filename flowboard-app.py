@@ -2,6 +2,7 @@ import urllib3
 import pandas as pd
 import datetime as dt
 import requests_kerberos
+from requests_kerberos import HTTPKerberosAuth, OPTIONAL
 import io
 import streamlit as st
 from PIL import Image
