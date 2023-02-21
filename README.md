@@ -16,7 +16,7 @@ OB Flowboard optimizes Outbound workflow by centralizing main key information sh
 <!-- GETTING STARTED -->
 ## Usage
 
-When LSA is triggered a messega is posted tagging all present members on chime room. Message contains following info:
+OB Flowboard is run by `streamlit` on *localhost:8501*
 
 * Shipment ID (linked to Rodeo)
 * ASIN
