@@ -2,9 +2,9 @@
 <img src="https://github.com/KMN43/OB_Flowboard/blob/main/Flowboard%20LOGO-02.png" width="446" height="337">
 </p>
 
-<p align="center">
+
 # Outbound Flowboard
-</p>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -23,7 +23,7 @@ When LSA is triggered a messega is posted tagging all present members on chime r
 * Shipment quantity
 * Expected Ship Date
 
-![LSA_Bot](https://github.com/KMN43/lambda_LargeShipment/blob/main/LSA_Bot.JPG?raw=true)
+![Flowboard_GUI](https://github.com/KMN43/OB_Flowboard/blob/main/GUI_Flowboard.JPG)
 
 
 <!-- ROADMAP -->
