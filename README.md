@@ -1,6 +1,8 @@
 
 ![LSA_Bot](https://github.com/KMN43/OB_Flowboard/blob/main/Flowboard%20LOGO-02.png)
 
+<img src="https://github.com/KMN43/OB_Flowboard/blob/main/Flowboard%20LOGO-02.png" width="100" height="100">
+
 # Outbound Flowboard
 
 <!-- ABOUT THE PROJECT -->
