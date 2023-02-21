@@ -2,7 +2,9 @@
 <img src="https://github.com/KMN43/OB_Flowboard/blob/main/Flowboard%20LOGO-02.png" width="446" height="337">
 </p>
 
+<p align="center">
 # Outbound Flowboard
+</p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
