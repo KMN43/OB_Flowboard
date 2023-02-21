@@ -1,10 +1,47 @@
-# OB_Flowboard
 
-Control panel designed for backloh, buffer and SLAs mangement at Sortable Legacy FC
-Data is feed from:
-- Rodeo ( Only CX )
-- MonitorPortal, for Capped volumen and capacity outputs
+![LSA_Bot](https://github.com/KMN43/OB_Flowboard/blob/main/Flowboard%20LOGO-02.png)
 
-> Planned features:
->- Include VRET/TSO views to control panel
->- C7 management. Dwell control
+# Outbound Flowboard
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+OB Flowboard a 
+
+Here's why:
+* Large shipment are likely to cause CX impact
+* Problem Solving tools (POPS) and PackApp are not designed to process such shipments with ease
+* Shipment cycle time is greater than regular shpments
+
+LSA is meant to run on AWS Lambda in order not to depend on personal virtual machines
+
+<!-- GETTING STARTED -->
+## Usage
+
+When LSA is triggered a messega is posted tagging all present members on chime room. Message contains following info:
+
+* Shipment ID (linked to Rodeo)
+* ASIN
+* Shipment quantity
+* Expected Ship Date
+
+![LSA_Bot](https://github.com/KMN43/lambda_LargeShipment/blob/main/LSA_Bot.JPG?raw=true)
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Generate Alert message
+- [x] Embebed libk to shipment on Rodeo
+- [ ] Multi FC Alert
+- [ ] Multi-level Alert
+    - [ ] Alert L.1 - When shipments are within next ExSD SLA
+    - [ ] Alert L.2 - when shipments are outside it's ExSD SLA
+
+
+<!-- CONTACT -->
+## POC
+
+Jorge Casas (DELGJR) - [Mail](delgjr@amazon.com)
+
+Project Link: [LSA_Project](https://github.com/KMN43/lambda_LargeShipment)
