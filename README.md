@@ -5,14 +5,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-OB Flowboard a 
+OB Flowboard optimizes Outbound workflow by centralizing main key information shift for planning and execution and help making critical decisions points across the operation including CX, VRET and TSO process paths in order to positively CX impact and cost. 
 
-Here's why:
-* Large shipment are likely to cause CX impact
-* Problem Solving tools (POPS) and PackApp are not designed to process such shipments with ease
-* Shipment cycle time is greater than regular shpments
 
-LSA is meant to run on AWS Lambda in order not to depend on personal virtual machines
 
 <!-- GETTING STARTED -->
 ## Usage
