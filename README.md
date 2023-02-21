@@ -1,4 +1,4 @@
-<img src="https://github.com/KMN43/OB_Flowboard/blob/main/Flowboard%20LOGO-02.png" width="400" height="400">
+<img src="https://github.com/KMN43/OB_Flowboard/blob/main/Flowboard%20LOGO-02.png" width="420" height="400">
 
 # Outbound Flowboard
 
