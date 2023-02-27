@@ -24,12 +24,19 @@ Before running app run `pip install -r requirements.txt` to update needed libs
 ## Features
 ![Flowboard_GUI](https://github.com/KMN43/OB_Flowboard/blob/main/GUI_Flowboard.JPG)
 ### On Sidebar
-> * Show next ExSD
-> * Show minutes to PAD Time
-> * OB TPH
-> * Lagrange Capacity for Singles, Multis and Total
-> >     * Delta capacity to Lagrange override
-> * TCAP% Volume for Singles, Multis and Total
+* Show next ExSD
+* Show minutes to PAD Time
+* OB TPH
+* Lagrange Capacity for Singles, Multis and Total
+    * Delta capacity to Lagrange override
+* TCAP% Volume for Singles, Multis and Total
+* Alerts:
+    * PPSingleMedium is *close* to FLowPause
+    * PPSingleMedium **is** in FlowPause
+    * Pickable Backlog < 1,5k units
+    * OB Backlog < 5,0k units
+* Config:
+    * App refresh rate in seconds
 
 <!-- ROADMAP -->
 ## Roadmap
