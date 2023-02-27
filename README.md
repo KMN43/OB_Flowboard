@@ -28,7 +28,7 @@ Before running app run `pip install -r requirements.txt` to update needed libs
 > * Show minutes to PAD Time
 > * OB TPH
 > * Lagrange Capacity for Singles, Multis and Total
-> > *Delta capacity to Lagrange override*
+> >     * Delta capacity to Lagrange override
 > * TCAP% Volume for Singles, Multis and Total
 
 <!-- ROADMAP -->
