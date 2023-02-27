@@ -16,15 +16,20 @@ OB Flowboard optimizes Outbound workflow by centralizing main key information sh
 <!-- GETTING STARTED -->
 ## Usage
 
-OB Flowboard is run by `streamlit` on *localhost:8501*
+OB Flowboard is run by `streamlit` on *localhost:8501*. For the time being app is run through a *run_app.bat* file that calls ´streamlit´ locally.
+Before running app run `pip install -r requirements.txt` to update needed libs
 
-* Shipment ID (linked to Rodeo)
-* ASIN
-* Shipment quantity
-* Expected Ship Date
 
+
+## Features
 ![Flowboard_GUI](https://github.com/KMN43/OB_Flowboard/blob/main/GUI_Flowboard.JPG)
-
+### On Sidebar
+> * Show next ExSD
+> * Show minutes to PAD Time
+> * OB TPH
+> * Lagrange Capacity for Singles, Multis and Total
+> > *Delta capacity to Lagrange override*
+> * TCAP% Volume for Singles, Multis and Total
 
 <!-- ROADMAP -->
 ## Roadmap
