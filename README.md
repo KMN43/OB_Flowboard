@@ -36,9 +36,9 @@ flowboard-app.py  #Main page. This is the file you run with "streamlit run"
 
 ```shell
 +CUSTOMER EXPERIENCIE+
---------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 | ON SIDEBAR:                                         |  ON MAIN:
------------------------------------------------------   ------------------------------------------------------
+-----------------------------------------------------   -----------------------------------------------------------------------
 * Show next ExSD                                         [IMPORTANT] All WIP metrics exclude hardcapped/non-pickable units
 * Show minutes to PAD Time                               * SINGLE #Associated to PPSingleMedium
 * OB TPH                                                     - PNYP / PickingPicked units
@@ -51,9 +51,14 @@ flowboard-app.py  #Main page. This is the file you run with "streamlit run"
     - Pickable Backlog < 1,5k units                          - Total (Singles + Multis) pickable units 
     - OB Backlog < 5,0k units                                - Total OB Backlog (Includings FRACS units assigned to CX PPhs)
 * Ship Goal input
-* Config:
-    - App refresh rate in seconds
-    - [WIP] Number of ExSDs on CORA to be shown
+* Config:                                                * Recirculation #Displayed as num. of containers marked with LANE_FULL
+    - App refresh rate in seconds                        * Info
+    - [WIP] Number of ExSDs on CORA to be shown              - Current shift shipped units
+                                                             - Suggested OB Capacity to EOS to achieve ship goal on input
+                                                             - Last update timestamp
+
+Flowboard is able to detect current shift by time range
+    
 ```
 
 
