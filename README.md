@@ -60,7 +60,7 @@ flowboard-app.py  #Main page. This is the file you run with "streamlit run"
 Flowboard is able to detect current shift by time range
     
 ```
-
+[GUI](https://github.com/KMN43/OB_Flowboard/blob/main/GUI_Flowboard.png)
 
 <!-- ROADMAP -->
 ## Roadmap
