@@ -22,7 +22,6 @@ Before running app run `pip install -r requirements.txt` to update needed libs
 
 
 ## Features
-![Flowboard_GUI](https://github.com/KMN43/OB_Flowboard/blob/main/GUI_Flowboard.JPG)
 ### On Sidebar
 * Show next ExSD
 * Show minutes to PAD Time
