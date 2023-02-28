@@ -16,7 +16,7 @@ OB Flowboard optimizes Outbound workflow by centralizing main key information sh
 <!-- GETTING STARTED -->
 ## Usage
 
-OB Flowboard is run by `streamlit` on *localhost:8501*. For the time being app is run through a *run_app.bat* file that calls ´streamlit´ locally.
+OB Flowboard is run by `streamlit` on *localhost:8501*. For the time being app is run through a *run_app.bat* file that calls `streamlit` locally.
 Before running app:
 1. Run `pip install -r requirements.txt` to update needed libs.
 2. Edit *run_app.bat* to decleare local path to `streamlit` directory
