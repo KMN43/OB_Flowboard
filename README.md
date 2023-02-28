@@ -54,7 +54,9 @@ flowboard-app.py  #Main page. This is the file you run with "streamlit run"
 * Config:
     - App refresh rate in seconds
     - [WIP] Number of ExSDs on CORA to be shown
-´´´
+```
+
+
 <!-- ROADMAP -->
 ## Roadmap
 
