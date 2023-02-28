@@ -20,6 +20,7 @@ OB Flowboard is run by `streamlit` on *localhost:8501*. For the time being app i
 Before running app run `pip install -r requirements.txt` to update needed libs.
 
 Flowboard data is structured according to the following pattern:
+
 ---
 ```shell
 flowboard-app.py  #Main page. This is the file you run with "streamlit run"
@@ -28,7 +29,7 @@ flowboard-app.py  #Main page. This is the file you run with "streamlit run"
   └─── tab2 -> Transfer Out
   └─── tab3 -> Vendor Returns
 ```  
-
+---
 
 
 ## Features
