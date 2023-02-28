@@ -67,17 +67,20 @@ Flowboard is able to detect current shift by time range
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Generate Alert message
-- [x] Embebed libk to shipment on Rodeo
-- [ ] Multi FC Alert
-- [ ] Multi-level Alert
-    - [ ] Alert L.1 - When shipments are within next ExSD SLA
-    - [ ] Alert L.2 - when shipments are outside it's ExSD SLA
-
+- [x] Customer Experience dashboard
+- [x] Vendor Returns dashboard
+    - [x] Process Path adhoc selection
+    - [ ] LANE Buffer utilization /Deprecated/
+- [ ] Transfer Out dashboard
+    - [x] MAD4>MAD7 Volume dashboard
+    - [ ] Main TSO Process Paths
+- [ ] Risk Management
+    - [ ] Implement Midway authentication
+    - [ ] Alerts for high risk / TRB
+    - [x] ExSD range selection
 
 <!-- CONTACT -->
 ## POC
 
 Jorge Casas (DELGJR) - [Mail](delgjr@amazon.com)
 
-Project Link: [LSA_Project](https://github.com/KMN43/lambda_LargeShipment)
