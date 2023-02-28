@@ -34,21 +34,27 @@ flowboard-app.py  #Main page. This is the file you run with "streamlit run"
 
 ## Features
 
-### On Sidebar
-* Show next ExSD
-* Show minutes to PAD Time
-* OB TPH
-* Lagrange Capacity for Singles, Multis and Total
-    * Delta capacity to Lagrange override
-* TCAP% Volume for Singles, Multis and Total
-* Alerts:
-    * PPSingleMedium is *close* to FLowPause
-    * PPSingleMedium is in FlowPause
-    * Pickable Backlog < 1,5k units
-    * OB Backlog < 5,0k units
+```shell
++CUSTOMER EXPERIENCIE+
+--------------------------------------------------------------------------------------------------------------
+| ON SIDEBAR:                                         |  ON MAIN:
+-----------------------------------------------------   ------------------------------------------------------
+* Show next ExSD                                         [IMPORTANT] All WIP metrics exclude hardcapped/non-pickable units
+* Show minutes to PAD Time                               * SINGLE #Associated to PPSingleMedium
+* OB TPH                                                     - PNYP / PickingPicked units
+* Lagrange Capacity for Singles, Multis and Total            - Single tote diverted to Jackpot Line / On Jackpot Line dropzone
+    - Delta capacity to Lagrange override                    - Total Single active totes
+* TCAP% Volume for Singles, Multis and Total                 - Total (Singles + Multis) C7 units
+* Alerts:                                                * Multis #Associated to PPMultiMedium
+    - PPSingleMedium is *close* to FLowPause                 - ReadyToPick / PNYP / PickingPicked / RB / Sorted units
+    - PPSingleMedium is in FlowPause                     * Backlog
+    - Pickable Backlog < 1,5k units                          - Total (Singles + Multis) pickable units 
+    - OB Backlog < 5,0k units                                - Total OB Backlog (Includings FRACS units assigned to CX PPhs)
+* Ship Goal input
 * Config:
-    * App refresh rate in seconds
-
+    - App refresh rate in seconds
+    - [WIP] Number of ExSDs on CORA to be shown
+´´´
 <!-- ROADMAP -->
 ## Roadmap
 
