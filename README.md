@@ -9,7 +9,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-OB Flowboard optimizes Outbound workflow by centralizing main key information for shift planning and execution and help making critical decisions points across the operation including CX, VRET and TSO process paths in order to positively CX impact and cost. 
+OB Flowboard optimizes Outbound workflow by centralizing main key information for shift planning and execution and help making critical decisions points across the operation including CX, VRET and TSO process paths in order to positively reduce CX impact and cost. 
 
 
 
